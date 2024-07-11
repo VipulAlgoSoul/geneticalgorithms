@@ -53,7 +53,7 @@ def crossover(population, mix_num):
 
 generations= 400
 
-target = "vipulnath"
+target = "sahadsali"
 intial_population = {create_in_element(len(target)) for i in range(0,15)}
 print("Initial Population", intial_population)
 selected, gen_best_fitness = select_fit(target, intial_population)
